@@ -1,13 +1,14 @@
 ### Helm
 
-## Q1 Create a helm chart for the app below and deploy it (please try to keep everything thing changeable
-using values.yaml)
-https://github.com/tradebyte/DevOps-Challenge
+## Q1 Create a helm chart for the app below and deploy it (please try to keep everything thing changeable using values.yaml)
+[link](https://github.com/tradebyte/DevOps-Challenge)
+
 
 * Hands-on helm using custom docker image on my dockerhub repo:
-    https://hub.docker.com/repository/docker/rizk95/helmapp
+    [link](https://hub.docker.com/repository/docker/rizk95/helmapp)
+    
 
-* The image below is based on project: https://github.com/tradebyte/DevOps-Challenge
+* The image below is based on project: [link](https://github.com/tradebyte/DevOps-Challenge)
 
 * i created a dockerfile and upload it to my dockerhub
 ```yaml
@@ -65,8 +66,8 @@ helm install helm-app-release-1
 ## Q2 Deploy Jenkins Chart on the cluster and login to jenkins
 
 
- -  install jenkins from artifacthub:
-     https://artifacthub.io/packages/helm/jenkinsci/jenkins
+ -  install jenkins from artifacthub: [link](https://artifacthub.io/packages/helm/jenkinsci/jenkins)
+     
 
 * add jenkins in your repo + update the repo 
 ```bash
