@@ -1,0 +1,16 @@
+deployment:
+  replicaCount: 2
+  name: "helm-app-deployment"
+  label : "helm-app"
+
+service:
+  name: "helm-app-service"
+  type: "NodePort"
+  nodePort: 30022
+  targetPort: 8000
+  protocol: "TCP"
+
+container:
+  name : "helm-app"
+  port: 8000
+  image: "rizk95/helmapp:helmimage"
